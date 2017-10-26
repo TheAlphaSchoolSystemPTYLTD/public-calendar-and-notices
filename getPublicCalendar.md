@@ -30,6 +30,10 @@
 
    `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
 
+   **Conditional:**
+
+   none
+
 * **Success Response:**
 
     ```javascript
