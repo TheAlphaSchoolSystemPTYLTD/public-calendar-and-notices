@@ -23,6 +23,8 @@
    `year_group [integer]` - Will accept list of integers as string e.g: `"-1,0,1,2,3,4,5"`
    
    `campus [string]`
+
+   `include_null_campus [bool]` - If `true` and `campus` is supplied, events with no `campus` will be returned. Defaults to `false`.
    
    `category [integer]`
    
@@ -79,6 +81,13 @@
     ```javascript
     __invalid: {
       [field_name]: "Value is not a valid integer."
+    }
+    ```
+
+    Bool `[field_name]` not a valid bool
+    ```javascript
+    __invalid: {
+      [field_name]: "Value is not a valid bool."
     }
     ```
     

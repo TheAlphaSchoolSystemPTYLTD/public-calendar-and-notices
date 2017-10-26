@@ -24,8 +24,10 @@
    
    `campus [string]`
    
+   `include_null_campus [bool]` - If `true` and `campus` is supplied, events with no `campus` will be returned. Defaults to `false`.
+
    `category [integer]`
-   
+
    `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
 
 * **Success Response:**
@@ -78,6 +80,12 @@
       [field_name]: "Value is not a valid integer."
     }
     ```
+
+    Bool `[field_name]` not a valid bool
+    ```javascript
+    __invalid: {
+      [field_name]: "Value is not a valid bool."
+    }
     
 * **Sample Parameters:**
 
