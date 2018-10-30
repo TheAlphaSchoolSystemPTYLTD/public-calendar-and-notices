@@ -45,6 +45,8 @@
     ```javascript
     events: [
       {
+          cat_num: 11,
+          cat_desc: "Academic",
           location: "",
           attachment: {
             file_size: 74535,
