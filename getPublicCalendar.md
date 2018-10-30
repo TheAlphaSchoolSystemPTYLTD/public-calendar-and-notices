@@ -2,6 +2,11 @@
 ----
   Returns the Public Calendar in JSON format.
 
+* **Version History:**
+
+  TASS v48 - Method Added
+  TASS v49.7.PR4 - Added category retun data. Allowed multiple Category filter
+     
 * **Version:**
 
   2
@@ -26,7 +31,7 @@
    
    `include_null_campus [bool]` - If `true` and `campus` is supplied, events with no `campus` will be returned. Defaults to `false`.
 
-   `category [integer]`
+   `category [integer]` - Will accept list of integers e.g: `"5,6,7"`
 
    `client_ip [string IP Address]` - May be required for attachments if proxying the initial request but not the file download
 
