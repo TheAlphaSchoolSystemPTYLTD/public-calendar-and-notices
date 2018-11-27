@@ -6,7 +6,7 @@
 
   TASS v48 - Method Added
   
-  TASS v49.7.PR4 - Added category retun data. Allowed multiple Category filter
+  TASS v49.7.035 - Added category return data. Allowed multiple Category filter
      
 * **Version:**
 
