@@ -7,6 +7,8 @@
   TASS v48 - Method Added
   
   TASS v49.7.035 - Added category return data. Allowed multiple Category filter
+  
+  TASS v50.0.000 - Added campus_code and year_groups to return. (If year_groups is empty object `{}` it is assumed the event belongs to all year groups.
      
 * **Version:**
 
@@ -47,6 +49,7 @@
       {
           cat_num: 11,
           cat_desc: "Academic",
+          campus_code: "ARG",
           location: "",
           attachment: {
             file_size: 74535,
@@ -65,7 +68,15 @@
           end: "2017-10-24 15:00:00",
           id: 7408,
           url_link: "http://www.google.com/",
-          all_day: false
+          all_day: false,
+          year_groups: {
+            0: "P",
+            1: 1,
+            2: 2,
+            3: 3,
+            4: 4,
+            -1: "PK"
+          }
       }
   ] 
   ```
