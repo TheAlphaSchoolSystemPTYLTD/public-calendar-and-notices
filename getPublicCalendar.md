@@ -51,11 +51,6 @@
           cat_desc: "Academic",
           campus_code: "ARG",
           location: "",
-          attachment: {
-            file_size: 74535,
-            file_name: "logo1.png",
-            file_url: "/tassdoc/getFile.cfm?i1=E38A4429-ACA0-3D5B-6AF9F34FE52743E3&i2=56FD78A0691722187C2542591A6A677A"
-          },
           url_text: "Google Link",
           day_time_desc: "Tue 24 Oct 2017 at 9:00am (End 3:00pm)",
           summary: "Public event with attachment",
