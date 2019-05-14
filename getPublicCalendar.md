@@ -55,6 +55,11 @@
           day_time_desc: "Tue 24 Oct 2017 at 9:00am (End 3:00pm)",
           summary: "Public event with attachment",
           has_attachment: true,
+          attachment: {
+            file_size: 1998,
+            deep_link: "{\"target\":\"calendar.attachment\",\"event_id\":\"7408\"}",
+            file_name: "logo1.gif"
+          },
           description: "Public event with attachment",
           single_day: true,
           source: "school",
