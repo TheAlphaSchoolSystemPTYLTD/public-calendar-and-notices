@@ -29,85 +29,65 @@
     `include_label:true`
 
     ```javascript
-    year_groups: [
 		{
-			label: "K",
-			year_group: -1
-		},
-		{
-			label: "P",
-			year_group: 0
-		},
-		{
-			label: 1,
-			year_group: 1
-		},
-		{
-			label: 2,
-			year_group: 2
-		},
-		{
-			label: 3,
-			year_group: 3
-		},
-		{
-			label: 4,
-			year_group: 4
-		},
-		{
-			label: 5,
-			year_group: 5
-		},
-		{
-			label: 6,
-			year_group: 6
-		},
-		{
-			label: 7,
-			year_group: 7
-		},
-		{
-			label: 8,
-			year_group: 8
-		},
-		{
-			label: 9,
-			year_group: 9
-		},
-		{
-			label: 10,
-			year_group: 10
-		},
-		{
-			label: 11,
-			year_group: 11
-		},
-		{
-			label: 12,
-			year_group: 12
+			"year_groups": [
+						{
+							"label": "BB",
+							"year_group": -3
+						},
+						{
+							"label": "AA",
+							"year_group": -2
+						},
+						{
+							"label": "PK",
+							"year_group": -1
+						},
+						{
+							"label": "P",
+							"year_group": 0
+						},
+						{
+							"label": 1,
+							"year_group": 1
+						}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-25 11:36:04'}",
+					"include_label": true
+			}
 		}
-	]
   ```
 
   `include_label:false`
 
     ```javascript
-    year_groups: [
-		-1,
-		0,
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
-	],
+		{
+			"year_groups": [
+							-3,
+							-2,
+							-1,
+							0,
+							1,
+							2,
+							3,
+							4,
+							5,
+							6,
+							7,
+							8,
+							9,
+							10,
+							11,
+							12
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-25 11:37:06'}",
+					"include_label": false
+			}
+		}
   ```
  
 * **Error Response:**

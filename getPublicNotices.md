@@ -37,32 +37,44 @@
 * **Success Response:**
 
     ```javascript
-    events: [
       {
-          location: "",
-          cat_num: 29,
-          url_text: "Google",
-          day_time_desc: "Tue 24 Oct 2017 at 9:00am (End 3:00pm)",
-          cat_desc: "4 - Staff Messages",
-          summary: "Public event with attachment",
-          has_attachment: true,
-          attachment: {
-            file_size: 1998,
-            deep_link: "{\"target\":\"calendar.attachment\",\"event_id\":\"7408\"}",
-            file_name: "logo1.gif"
-          },
-          description: "Public event with attachment",
-          single_day: true,
-          source: "dailynotice",
-          title: "Public event with attachment",
-          start: "2017-10-24 09:00:00",
-          end: "2017-10-24 15:00:00",
-          id: 7408,
-          url_link: "http://www.google.com/",
-          entry_name: "Mr A Johnstone",
-          all_day: false
+        "events": [
+            {
+              "location": "",
+              "attachment": {
+                    "file_size": 17851,
+                    "deep_link": "",
+                    "file_name": "Cessna.jpg"
+              },
+              "cat_num": 29,
+              "url_text": "",
+              "day_time_desc": "Wed 09 Aug 2017 at 9:00am (End 3:00pm)",
+              "campus_code": "",
+              "cat_desc": "4 - Staff Messages",
+              "dayFlag": "",
+              "summary": "Fly HIgh",
+              "has_attachment": true,
+              "description": "Fly HIgh",
+              "single_day": true,
+              "year_groups": {},
+              "source": "dailynotice",
+              "title": "Fly HIgh",
+              "start": "2017-08-09 09:00:00",
+              "end": "2017-08-09 15:00:00",
+              "id": 7720,
+              "url_link": "",
+              "entry_name": "Mr A O'Johnstone",
+              "feed": "School and Teacher Calendar",
+              "all_day": false
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 11:24:02'}",
+            "end_date": "31/12/2017",
+            "start_date": "01/01/2017"
+        }
       }
-  ] 
   ```
  
 * **Error Response:**

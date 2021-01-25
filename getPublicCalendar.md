@@ -45,40 +45,56 @@
 * **Success Response:**
 
     ```javascript
-    events: [
       {
-          cat_num: 11,
-          cat_desc: "Academic",
-          campus_code: "ARG",
-          location: "",
-          url_text: "Google Link",
-          day_time_desc: "Tue 24 Oct 2017 at 9:00am (End 3:00pm)",
-          summary: "Public event with attachment",
-          has_attachment: true,
-          attachment: {
-            file_size: 1998,
-            deep_link: "{\"target\":\"calendar.attachment\",\"event_id\":\"7408\"}",
-            file_name: "logo1.gif"
-          },
-          description: "Public event with attachment",
-          single_day: true,
-          source: "school",
-          title: "Public event with attachment",
-          start: "2017-10-24 09:00:00",
-          end: "2017-10-24 15:00:00",
-          id: 7408,
-          url_link: "http://www.google.com/",
-          all_day: false,
-          year_groups: {
-            0: "P",
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            -1: "PK"
-          }
+        "events": [
+            {
+              "location": "",
+              "attachment": {
+                    "deep_link": "",
+                    "file_name": ""
+              },
+              "cat_num": 12,
+              "url_text": "",
+              "day_time_desc": "Fri 31 Mar 2017 at 12:00am (End 12:00am)",
+              "campus_code": "",
+              "cat_desc": "",
+              "dayFlag": "",
+              "summary": "All Welcome",
+              "has_attachment": false,
+              "description": "All Welcome",
+              "single_day": true,
+              "year_groups": {
+                      "0": "P",
+                      "1": 1,
+                      "2": 2,
+                      "3": 3,
+                      "4": 4,
+                      "5": 5,
+                      "6": 6,
+                      "7": 7,
+                      "8": 8,
+                      "9": 9,
+                      "10": 10,
+                      "11": 11,
+                      "12": 12
+              },
+              "source": "school",
+              "title": "Family Administration Day",
+              "start": "2017-03-31 00:00:00",
+              "end": "2017-03-31 00:00:00",
+              "id": 7454,
+              "url_link": "",
+              "feed": "School and Teacher Calendar",
+              "all_day": true
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 11:21:49'}",
+            "end_date": "31/12/2017",
+            "start_date": "01/01/2017"
+        }
       }
-  ] 
   ```
  
 * **Error Response:**
@@ -109,6 +125,7 @@
     __invalid: {
       [field_name]: "Value is not a valid bool."
     }
+    ```
     
 * **Sample Parameters:**
 

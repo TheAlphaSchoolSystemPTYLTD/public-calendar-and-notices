@@ -29,45 +29,49 @@
     `include_label:true`
 
     ```javascript
-    categories: [
-		{
-			category: 10,
-			label: "Sporting"
-		},
-		{
-			category: 11,
-			label: "Academic"
-		},
-		{
-			category: 12,
-			label: "Staff Events"
-		},
-		{
-			category: 13,
-			label: "Art Drama and Music"
-		},
-		{
-			category: 14,
-			label: "Boarders Events"
-		},
-		{
-			category: 15,
-			label: "Excursions"
-		}
-    ]
+      {
+        "categories": [
+              {
+                "category": 1,
+                "label": "Sporting"
+              },
+              {
+                "category": 2,
+                "label": "Academic"
+              },
+              {
+                "category": 3,
+                "label": "Staff Events"
+              }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+        "timestamp": "{ts '2021-01-25 11:37:58'}",
+        "include_label": true
+        }
+      }
   ```
 
   `include_label:false`
 
     ```javascript
-    categories: [
-		10,
-		11,
-		12,
-		13,
-		14,
-		15
-	]
+      {
+      "categories": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      14,
+                      15,
+                      16,
+                      ...
+      ],
+      "__tassversion": "01.053.3.000",
+      "token": {
+          "timestamp": "{ts '2021-01-25 11:38:41'}",
+          "include_label": false
+      }
+      }
   ```
  
 * **Error Response:**
