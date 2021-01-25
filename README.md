@@ -3,6 +3,7 @@ Public Calendar and Notices API
 
 **Methods**
 
+  * getAttachment
   * getCampuses
   * getCategories
   * getPublicCalendar
