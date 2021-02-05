@@ -29,35 +29,39 @@
     `include_label:true`
 
     ```javascript
-    campuses: [
-        {
-            campus: "ARG",
-            label: "Argyle Street Campus"
-        },
-        {
-            campus: "JU",
-            label: "Junior School (Billabong Road)"
-        },
-        {
-            campus: "SE",
-            label: "Senior School (Curlew St)"
-        },
-        {
-            campus: "THO",
-            label: "Thompson Street Campus"
+      {
+        "campuses": [
+              {
+                "campus": "JU",
+                "label": "Junior School (Billabong Road)"
+              },
+              {
+                "campus": "SE",
+                "label": "Senior School (Curlew St)"
+              }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 11:40:35'}",
+            "include_label": true
         }
-    ]
+      }
   ```
 
   `include_label:false`
 
     ```javascript
-    campuses: [
-        "ARG",
-        "JU",
-        "SE",
-        "THO"
-    ]
+      {
+          "campuses": [
+                      "JU",
+                      "SE"
+          ],
+          "__tassversion": "01.053.3.000",
+          "token": {
+              "timestamp": "{ts '2021-01-25 11:41:29'}",
+              "include_label": false
+          }
+      }
   ```
  
 * **Error Response:**
